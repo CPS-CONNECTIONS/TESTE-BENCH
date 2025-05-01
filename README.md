@@ -1,6 +1,6 @@
 # CPS-SUPORTE
 
-Bem-vindo ao repositório **TESTE-BENCH**, neste repositório contém o executável do teste para identificação de ciclo e parada nos coletores (ROCKPI e TINY). 
+Bem-vindo ao repositório **MONITOR-TINNY**, neste repositório contém o executável do teste para identificação de ciclo e parada nos coletores (TINY). 
 Este repositório é destinado a fornecer suporte técnico e instruções detalhadas para instalação e utilização do monitor de sinais no coletor de dados fabricados pela CPS Connections.
 
 ## Conteúdo
@@ -12,9 +12,14 @@ Este arquivo é responsável pelo monitoramento:
     - IP  <IP DO DISPOSITIVO>
     - Login <LOGIN PADRÃO ROCK>
     - Senha <SENHA PADRÃO ROCK>
+- Dê as permissões de usuário com o seguinte comando:
+```sh
+    sudo chmod 777 ./monitor.o
+```
 - Após a instalação basta acessar o coletor via Putty com o IP do dispositivo e rodar o seguinte comando:
-  - sudo ./monitor.o
- 
+```sh
+    sudo ./monitor.o
+```
 ---
 
 ## Suporte
